@@ -1,0 +1,26 @@
+	input
+	{
+		padding: 10px;
+	}
+	.ConFont
+	{
+		font-family: 'Raleway', sans-serif;
+        color: black;
+        font-size: 40px;
+        outline-color: yellow:  
+        outline-weight: 10px;
+        text-decoration: underline;
+        text-transform: uppercase;
+	}
+	.input
+	{
+		border: 3px solid black;
+		background: white;
+		font-family: 'Raleway', sans-serif;
+	}
+	.label
+	{
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		font-weight: bold
+	}

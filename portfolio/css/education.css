@@ -1,0 +1,27 @@
+	input
+	{
+		padding: 10px;
+	}
+	.heading
+	{
+		font-family: 'Raleway', sans-serif;
+        color: black;
+        font-size: 40px;
+        outline-color: yellow:  
+        outline-weight: 10px;
+        text-decoration: underline;
+        text-transform: uppercase;
+	}
+	.cont
+	{
+		margin-bottom: 40px;
+		font-family: 'Raleway', sans-serif;
+	} 
+	span
+	{
+		color: red;
+	}
+	h4
+	{
+		color: gray;
+	}

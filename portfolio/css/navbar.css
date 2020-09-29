@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+html,body
+{
+  height: 100%;
+  margin: 0;
+
+}
+#addData
+{
+  animation: blur 4s ease 0s;
+}
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ color: white;
+ text-align: center;
+ width: 100%
+}
+a
+{
+font-family: 'Tangerine', serif;
+color: #ccc;
+font-size: 18px;
+margin-right: 20px;
+letter-spacing: 3px; 
+font-weight: bolder;
+text-transform: uppercase;
+}
+a:hover
+{
+	color : white;
+ /* width */
+}
+::-webkit-scrollbar {
+width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+.icon
+{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icon:hover
+{
+  color : blue;
+}
+.navColor
+{
+    background-image: linear-gradient(to bottom right , #B0BEC5 , white);
+}
+.footColor
+{
+   background-image: linear-gradient(to bottom right , #B0BEC5 , white);
+
+}
+.my-sm-0
+{
+	font-family: 'Tangerine', serif;
+	background: navy;color:white;font-weight: bold;font-size: 20px;
+	
+}
+@keyframes blur {
+  0%,
+  90% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  50% {
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+  }
+}
+
+filter: blur(3px);
+-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: url(blur.svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');

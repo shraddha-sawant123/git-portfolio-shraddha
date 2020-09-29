@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smooth Scrolling Test1</title>
+	<style>
+		div {
+			height: 1000px;
+	}
+	</style>
+
+<script src="jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("a[href^='#']").click(function(e) {
+	
+	var position = $($(this).attr("href")).offset().top;
+	//alert(position);
+	//var position = $(this).attr("href").offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	},5000);
+});
+	});
+</script>
+</head>
+<body>
+	<p id="up">
+	<a href="#1">One</a>
+<a href="#2">Home</a> |
+<a href="#3">About</a> |
+<a href="#4">Contact</a> |
+<a href="#5">Products</a>
+</p>
+
+<hr>
+
+<div id="1">
+	<h1>ONE Content</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellat minus expedita, animi ab accusamus neque vero architecto natus sequi quam quis veniam illo velit sit incidunt, quas, dolor iure.
+</div>
+
+
+<div id="2">
+	<h1>HOME Content</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellat minus expedita, animi ab accusamus neque vero architecto natus sequi quam quis veniam illo velit sit incidunt, quas, dolor iure.
+</div>
+
+<div id="3">
+	<h1>About Content</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellat minus expedita, animi ab accusamus neque vero architecto natus sequi quam quis veniam illo velit sit incidunt, quas, dolor iure.
+</div>
+
+<div id="4">
+	<h1>Contact Content</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellat minus expedita, animi ab accusamus neque vero architecto natus sequi quam quis veniam illo velit sit incidunt, quas, dolor iure.
+		<hr>
+		<a href="#up">UP</a>
+</div>
+
+<div id="5">
+	<h1>Products Content</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellat minus expedita, animi ab accusamus neque vero architecto natus sequi quam quis veniam illo velit sit incidunt, quas, dolor iure.
+</div>
+</body>
+</html>

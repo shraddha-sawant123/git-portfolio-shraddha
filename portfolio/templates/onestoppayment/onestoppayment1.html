@@ -1,0 +1,363 @@
+<html>
+<head>
+<style>
+body{
+font-family:"arial";
+color:#424242;
+}
+#container{
+width:1024px;
+height:auto;
+border:1px solid transparent;
+margin:0px auto;
+}
+#navbar{
+height:48px;
+border:1px solid transparent;
+background:#ebebeb;
+}
+#L1list{
+width:600px;
+margin-left:660px;
+}
+#L1list #list1{
+display:inline-block;
+margin-right:10px;
+border-right:1px solid gray;
+margin-left:10px;
+padding-right:30px;
+text-align:center;
+color:gray;
+}
+#L1list #list1:last-child{
+border:none;
+}
+#r1{
+margin-right:30px;
+margin-left:10px;
+font-weight:bold;
+}
+
+#layer1{
+height:101px;
+border:1px solid transparent;
+}
+#put{
+background:#ebebeb;
+border:none;
+width:400px;
+height:40px;
+transform:translateY(-40px);
+margin-left:50px;
+color:#a3a3a3;
+padding-left:10px;
+font-size:14px;
+}
+#t1{
+//border:1px solid transparent;
+display:inline-block;
+transform:translateY(-30px);
+color:gray;
+margin-left:50px;
+}
+#layer2{
+background:#213871;
+height:100px;
+}
+ul #L1{
+margin-top:10px;
+}
+#top{
+height:70px;
+}
+#pic1{
+margin-left:100px;
+margin-right:70px;
+}
+#label1,#label2,#label3,#label4{
+margin-left:105px;
+margin-right:90px;
+color:orange;
+}
+
+#label1{
+margin-left:115px;
+}
+#label3{
+margin-left:110px;
+}
+#container1{
+width:1024px;
+height:930px;
+border:1px solid transparent;
+margin:0px auto;
+background:#ebebeb;
+height:auto;
+}
+#Lbox,#Bbox{
+width:20px;
+height:30px;
+display:inline-block;
+margin-top:17px;
+height:346px;
+border-radius:10px;
+box-shadow:0px 0px  15px #474545;
+background:white;
+}
+#Lbox{
+margin-left:69px;
+margin-right:27px;
+width:260px;
+padding-left:20px;
+padding-right:20px;
+margin-top:20px;
+transform:translateY(7px);
+}
+
+#m1{
+width:100%;
+border:none;
+border-bottom:1px solid orange;
+margin-top:20px;
+margin-bottom:10px;
+font-size:15px;
+}
+#ch1{
+color:gray;
+display:inline-block;
+border:1px solid orange;width:30px;height:30px;
+}
+#ch2{
+color:gray;
+display:inline-block;
+width:200px;height:30px;
+margin-left:10px;
+transform:translateY(-5px);
+}
+input[type=button]
+{
+margin-top:10px;
+width:100%;
+padding:5px;
+border-radius:10px;
+border:none;
+background:#f58120;
+color:white;
+font-weight:bold;
+}
+#Bbox{
+margin-right:69px;
+width:510px;
+padding-left:20px;
+padding-right:20px;
+transform:translateY(-3px);
+}
+#IBbox{
+border:1px solid #d5d3d3;
+width:100%;
+height:60px;
+margin-top:10px;
+}
+#t2{
+width:340px;
+height:40px;
+display:inline-block;
+margin-left:10px;
+}
+#b1{
+width:30%;
+background:#213871;
+}
+#layer3{
+width:864px;
+height:500px;
+border:1px solid transparent;
+margin:44px auto;
+padding-right:10px;
+padding-left:10px;
+border-radius:10px;
+background:white;
+}
+#footer{
+width:884px;
+height:179px;
+border:1px solid transparent;
+margin:0px auto;
+background:white;
+margin-bottom:40px;
+border-radius:10px;
+}
+#footer1{
+width:1024px;
+height:64px;
+border:1px solid transparent;
+background:#213871;
+}
+#footer2{
+width:884px;
+height:124px;
+border:1px solid transparent;
+margin:0px auto;
+}
+#f1{
+width:24%;
+height:100%;
+border:1px solid transparent;
+display:inline-block;
+margin-top:10px;
+}
+h3{
+font-size:17px;
+}
+#ftext{
+text-align:center;}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="navbar">
+<ul id="L1list"><li id="list1">WalletTrack</li><li id="list1">Order</li><li id="list1">24*7 help</li></ul>
+</div>
+<div id="layer1"><img src="images/1.png"><input type="text" placeholder="Search for product,Brand or category" id="put"><p id="t1">Wallet <br>Rs.100.0</p><p  id="t1">Log in/sign up</p></div>
+<div id="layer2"><div id="top"><img src="images/2.png" id="pic1"><img src="images/3.png" id="pic1"><img src="images/4.png" id="pic1"><img src="images/5.png" id="pic1"></div><div id="bottom"><label id="label1">Mobile</label><label id="label2">Electricity</label><label id="label3">Gas</label><label id="label4">Insurance</label></div></div>
+</div>
+<div id="container1">
+<div id="Lbox">
+<h3>Mobile recharge or bill payment</h3>
+<input type="radio" name="t1"><span id="r1">Prepaid</span><input type="radio" name="t1" checked><span  id="r1">Postpaid</span>
+<p>
+<input type="text" id="m1" placeholder="Mobile number">
+<input type="text" id="m1" placeholder="Operator">
+<input type="text"id="m1" placeholder="Amount">
+</p>
+<div id="ch1"></div><div id="ch2"><font size="3">fast forword</font><br><font size="1">Instant payment from your easyPay balance</font></div>
+<input type="button" value="Pay bill now">
+</div>
+<div id="Bbox">
+<h3><font color="orange">Promo codes</font></h3>
+<div id="IBbox"><p id="t2"><font><b>MONTHLY</b></font><br><font size="2">Flat Rs.20 Cashback</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>MI6</font></b><br><font size="2">Recharge and get 50% cashback on ticket</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>FAMLY</b></font><br><font size="2">Pay for your family and get cashback R.300</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>LUCKY70</b></font><br><font size="2">70 lucky users will get 100% cashback</font></p><input type="button" id="b1" value="Apply promo"></div>
+</div>
+<div id="layer3">
+<h3>Online mobile Bill payment</font></h3>
+<p>Jealousy is something you may never have to worry about with a Gemini husband, because possessiveness is not a typical Gemini trait. If suspicion occasionally whispers in his ear, he'll usually brush it away (unless an affliction in the natal chart indicates otherwise). Some degree of jealousy is natural in everyone, of course, but it's normally not exaggerated in a Gemini. Love is not a strictly physical relationship with this man</p>
+<h3>Major postpaid Mobile bill payment service providers available at EasyPay</h3>
+<p>Jealousy is something you may never have to worry about with . because possessiveness is not a typical Gemini trait. </p>
+<h3>How to make online bill payment</h3>
+<ul><li id="L1">Enter your postpaid mobile no</li><li id="L1">Select your mobile operator</li><li id="L1">Enter the amount</li><li id="L1">Pick bill payment promo code of your choice and get cashback & other offers</li><li id="L1">Choose payment methods your preference i.e. Credit/Debit Card ,Net banking  or Easypay Wallet.All our payment means secure and protected</li><li id="L1">You are done with it.</li></ul>
+</div>
+
+
+<div id="Lbox" style="margin-top:-20px">
+<h3 style="margin-bottom:-0.2px">Pay for Electricity</h3>
+<input type="radio" name="t1" ><span>Electricity Boards</span>
+<p style="margin-top:-20px;">
+<input type="text" id="m1" placeholder="Select states">
+<input type="text" id="m1" placeholder="select electricity boards">
+<input type="text"id="m1" placeholder="Select sub division">
+<input type="text"id="m1" placeholder="Customer number">
+</p>
+<div id="ch1"></div><div id="ch2"><font size="3">fast forword</font><br><font size="1">Instant payment from your easyPay balance</font></div>
+<input type="button" value="Pay bill now">
+</div>
+<div id="Bbox" style="margin-top:-20px">
+<h3><font color="orange">Promo codes</font></h3>
+<div id="IBbox"><p id="t2"><font><b>MONTHLY</b></font><br><font size="2">Flat Rs.20 Cashbac</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>MI6</b></font><br><font size="2">Recharge and get 50% cashback on ticket</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>FAMLY</b></font><br><font size="2">Pay for your family and get cashback R.300</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>LUCKY70</b></font><br><font size="2">70 lucky users will get 100% cashback</font></p><input type="button" id="b1" value="Apply promo"></div>
+</div>
+<div id="layer3">
+<h3>Online mobile Bill payment</h3>
+<p>Jealousy is something you may never have to worry about with a Gemini husband, because possessiveness is not a typical Gemini trait. If suspicion occasionally whispers in his ear, he'll usually brush it away (unless an affliction in the natal chart indicates otherwise). Some degree of jealousy is natural in everyone, of course, but it's normally not exaggerated in a Gemini. Love is not a strictly physical relationship with this man</p>
+<h3>Major postpaid Mobile bill payment service providers available at EasyPay</h3>
+<p>Jealousy is something you may never have to worry about with . because possessiveness is not a typical Gemini trait. </p>
+<h3>How to make online bill payment</h3>
+<ul><li id="L1">Enter your postpaid mobile no</li><li id="L1">Select your mobile operator</li><li id="L1">Enter the amount</li><li id="L1">Pick bill payment promo code of your choice and get cashback & other offers</li><li id="L1">Choose payment methods your preference i.e. Credit/Debit Card ,Net banking  or Easypay Wallet.All our payment means secure and protected</li><li id="L1">You are done with it.</li></ul>
+</div>
+
+
+<div id="Lbox" style="transform:translateY(-30px)">
+<h3>DTH recharge</h3>
+<p>
+<input type="text" id="m1" placeholder="Select operator">
+<input type="text" id="m1" placeholder="Subscriber ID">
+<input type="text"id="m1" placeholder="Amount">
+</p>
+<div id="ch1"></div><div id="ch2"><font size="3">fast forword</font><br><font size="1">Instant payment from your easyPay balance</font></div>
+<input type="button" value="Proceed to Recharge">
+</div>
+<div id="Bbox">
+<h3><font color="orange">Promo codes</font></h3>
+<div id="IBbox"><p id="t2"><font><b>MONTHLY</b></font><br><font size="2">Flat Rs.20 Cashbac</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>MI6</b></font><br><font size="2">Recharge and get 50% cashback on ticket</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>FAMLY</b></font><br><font size="2">Pay for your family and get cashback R.300</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>LUCKY70</b></font><br><font size="2">70 lucky users will get 100% cashback</font></p><input type="button" id="b1" value="Apply promo"></div>
+</div>
+<div id="layer3">
+<h3>Online mobile Bill payment</h3>
+<p>Jealousy is something you may never have to worry about with a Gemini husband, because possessiveness is not a typical Gemini trait. If suspicion occasionally whispers in his ear, he'll usually brush it away (unless an affliction in the natal chart indicates otherwise). Some degree of jealousy is natural in everyone, of course, but it's normally not exaggerated in a Gemini. Love is not a strictly physical relationship with this man</p>
+<h3>Major postpaid Mobile bill payment service providers available at EasyPay</h3>
+<p>Jealousy is something you may never have to worry about with . because possessiveness is not a typical Gemini trait. </p>
+<h3>How to make online bill payment</h3>
+<p>As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. </p>
+</div>
+
+
+<div id="Lbox"  style="transform:translateY(-30px)">
+<h3>Pay your Gas BIll</h3>
+<p>
+<input type="text" id="m1" placeholder="Select gas provider">
+<input type="text" id="m1" placeholder="Costomer number">
+<input type="text"id="m1" placeholder="Amount">
+</p>
+<div id="ch1"></div><div id="ch2"><font size="3">fast forword</font><br><font size="1">Instant payment from your easyPay balance</font></div>
+<input type="button" value="Pay bill now">
+</div>
+<div id="Bbox" style="margin-top:-20px">
+<h3><font color="orange">Promo codes</font></h3>
+<div id="IBbox"><p id="t2"><font><b>MONTHLY</b></font><br><font size="2">Flat Rs.20 Cashbac</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>MI6</b></font><br><font size="2">Recharge and get 50% cashback on ticket</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>FAMLY</b></font><br><font size="2">Pay for your family and get cashback R.300</font></p><input type="button" id="b1" value="Apply promo"></div>
+<div id="IBbox"><p id="t2"><font><b>LUCKY70</b></font><br><font size="2">70 lucky users will get 100% cashback</font></p><input type="button" id="b1" value="Apply promo"></div>
+</div>
+<div id="layer3">
+<h3>Online mobile Bill payment</h3>
+<p>Jealousy is something you may never have to worry about with a Gemini husband, because possessiveness is not a typical Gemini trait. If suspicion occasionally whispers in his ear, he'll usually brush it away (unless an affliction in the natal chart indicates otherwise). Some degree of jealousy is natural in everyone, of course, but it's normally not exaggerated in a Gemini. Love is not a strictly physical relationship with this man</p>
+<h3>Major postpaid Mobile bill payment service providers available at EasyPay</h3>
+<p>Jealousy is something you may never have to worry about with . because possessiveness is not a typical Gemini trait. </p>
+<h3>How to make online bill payment</h3>
+<p>As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. </p>
+</div>
+<div id="Lbox" style="margin-top:-20px">
+<h3>Pay your Insurance Premium</h3>
+<p>
+<input type="text" id="m1" placeholder="Select your Insurer">
+<input type="text" id="m1" placeholder="Policy Number">
+<input type="text"id="m1" placeholder="Amount">
+</p>
+<div id="ch1"></div><div id="ch2"><font size="3">fast forword</font><br><font size="1">Instant payment from your easyPay balance</font></div>
+<input type="button" value="Pay bill now">
+</div>
+
+<div id="layer3">
+<h3>Online mobile Bill payment</h3>
+<p>Jealousy is something you may never have to worry about with a Gemini husband, because possessiveness is not a typical Gemini trait. If suspicion occasionally whispers in his ear, he'll usually brush it away (unless an affliction in the natal chart indicates otherwise). Some degree of jealousy is natural in everyone, of course, but it's normally not exaggerated in a Gemini. Love is not a strictly physical relationship with this man</p>
+<h3>Major postpaid Mobile bill payment service providers available at EasyPay</h3>
+<p>Jealousy is something you may never have to worry about with . because possessiveness is not a typical Gemini trait. </p>
+<h3>How to make online bill payment</h3>
+<p>As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. As a result of rapid technological progress, these areas are rapidly converging in the 21st century and the differences between collecting, transporting, storing, and processing information are quickly disappearing. Organizations with hundreds of offices spread over a wide geographical area routinely expect to be able to examine the current status of even their most remote outpost at the push of a button. </p>
+</div>
+<div id="footer">
+ <div id="f1" style="transform:translateY(-20px)"> <h3 id="ftext">24 * 7 help</h3 ><P id="ftext">Have a query and need help?<font color="orange"> Click here</font></p></div>
+ <div id="f1" style="transform:translateY(-20px)"><h3 id="ftext">Easy pay Trust</h3 ><p id="ftext">Although the computer industry is still yo</p></div>
+ <div id="f1"><h3 id="ftext">100% assurance</h3> <p id="ftext">Although the computer industry is still young compared to other industries </p></div>
+ <div id="f1"><h3 id="ftext">Our promise</h3><p id="ftext">Although the computer industry is still young compared to other industries </p></div>
+ </div>
+<div id="footer1"><p style="display:inline-block;margin-left:80px;color:white;transform:translateY(-20px);">@copywrite; 2018 | EasyPay</p><img style="margin-left:550px" src="images/f.png"><img src="images/f1.png"><img src="images/f2.png"></div>
+<div id="footer2"><p style="margin-top:30px;"><b>DISCLAIMER:  </b>Each of the past three centuries was dominated by a single new technology. The 18th century was the era of the great mechanical systems accompanying the Industrial Revolution. The 19th century was the age of the steam engine.<font color="orange"> Read more...</font></p></div>
+ </div>
+</body>
+</html>

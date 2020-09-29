@@ -1,0 +1,758 @@
+<html>
+<head>
+<style>
+#container{
+width:100%;
+height:6528px;
+//border:1px solid black;
+margin:0px auto;
+font-family:"Arial";
+}
+#wrapper1{
+height:864px;
+//border:1px solid black;
+background:#fcdb00;
+width:100%;
+}
+
+#navbar{
+width:100%;
+height:158px; 
+//border:1px solid black;
+margin:0px auto;
+}
+#cap1{
+margin-left:220px;
+}
+#list{
+width:200px;
+height:355px;
+border:1px solid black;
+display:none;
+margin-top:-30px;
+margin-left:50px;
+position:absolute;
+background:black;
+color:yellow;
+border-radius:20px;
+padding:10px;
+}
+#list ul{
+margin-left:-40px;
+margin-top:-4px;
+border-radius:50px;
+}
+#list ul li{
+border-bottom:1px solid yellow;
+list-style-type:none;
+padding:10px;
+font-family:"Kristen ITC";
+}
+#list ul li:last-child{
+border:none;
+}
+#list ul li:hover{
+background:yellow;
+color:black;
+}
+#pic1{
+margin-left:280px;
+}
+#pic2{
+margin-left:220px;
+}
+#t1{
+font-size:30px;
+margin-left:10px;
+//border:1px solid black;
+margin-bottom:20px;
+display:inline-block;
+transform:translateY(-10px);
+font-weight:bold;
+}
+#middle{
+width:100%;
+height:391px;
+//border:1px solid black;
+margin:100px auto;
+text-align:center;
+}
+#t2{
+//border:1px solid black;
+width:300px;
+margin:0px auto;
+}
+#b1{
+width:250px;
+height:58px;
+font-size:18px;
+margin-top:50px;
+background:none;
+border:2px solid black;
+}
+#b1:hover{
+background:black;
+color:yellow;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#pic3{
+margin-left:670px;
+animation:pic3 1s;
+animation-iteration-count:infinite;
+}
+@keyframes pic3{
+form{margin-left:670px;margin-top:0px}
+to{margin-top:-20px;}
+}
+
+#ani{
+margin-top:-400px;
+animation:ani 4s;
+animation-fill-mode:forwards;
+}
+@keyframes ani{
+form{margin-top:-400px;}
+to{margin-top:0px;}
+}
+#wrapper2{
+height:836px;
+//border:1px solid black;
+}
+#nav1{
+//border:1px solid black;
+text-align:center;
+}
+#navtext{
+width:50%;
+margin:0px auto;
+color:lightgray;
+}
+w2pic1{
+width:90px;
+height:60px;
+}
+#w2text{
+color:lightgray;
+text-align:left;
+}
+#n1{
+width:300px;
+height:220px;
+//border:1px solid black;
+display:inline-block;
+margin-left:2px;
+}
+#nav2{
+width:100%;
+height:60%;
+//border:1px solid red;
+margin:100px auto;
+text-align:center;
+}
+#npic{
+width:100px;
+height:100%;
+//border:1px solid yellow;
+display:inline-block;
+transform:translateY(-65px);
+}
+#npic1{
+height:50%;
+//border:1px solid blue;
+}
+#ntext{
+width:210px;
+height:100%;
+//border:1px solid black;
+display:inline-block;
+}
+#wrapper3{
+height:762px;
+////border:1px solid black;
+}
+#wap{
+width:70%;
+height:484px;
+//border:1px solid black;
+margin:70px auto;
+}
+#wap1,#wap2,#wap3{
+width:32.7%;
+height:100%;
+//border:1px solid black;
+display:inline-block;
+text-align:center;
+}
+#w3b{
+width:138px;
+height:43px;
+background:none;
+border:2px solid black;
+font-weight:bold;
+margin-top:30px;
+}
+#w3text{
+width:200px;
+////border:1px solid black;
+margin:0px auto;
+color:#adadad;
+}
+#ptext{
+////border:1px solid black;
+margin-top:-20px;
+color:#adadad;
+font-size:18px;
+}
+#underline{
+border-bottom:2px solid black;
+padding-bottom:5px;
+width:60px;
+margin:30px auto;
+}
+
+#wrapper4{
+height:935px;
+////border:1px solid black;
+}
+#wap4{
+width:70%;
+height:600px;
+//border:1px solid black;
+margin:80px auto;
+}
+#wap41{
+width:21%;
+height:100%;
+//border:1px solid  black;
+display:inline-block;
+margin-right:15px;
+margin-left:15px;
+text-align:center;
+}
+#wap42{
+margin-bottom:0px;
+}
+#w4text{
+margin-top:-10px;
+margin-bottom:80px;
+color:lightgray;
+}
+#wrapper5{
+height:600px;
+//border:1px solid black;
+}
+#wap5{
+width:100%;
+height:400px;
+//border:1px solid black;
+margin:70px auto;
+text-align:center;
+}
+#w5,#w51,#w52,#w53{
+width:225px;
+height:100%;
+////border:1px solid black;
+display:inline-block;
+margin-left:10px;
+margin-right:10px;
+text-align:center;
+}
+#w51{
+transform:translateY(-10px);
+}
+#w52{
+transform:translateY(-13px);
+}
+#w53{
+transform:translateY(-22px);
+}
+#w5text{
+color:#8e8e8e;
+}
+#wrapper6{
+height:407px;
+//border:1px solid black;
+}
+#wap6{
+width:100%;
+height:180px;
+//border:1px solid black;
+margin:50px auto;
+text-align:center;
+}
+#w61,#w62,#w63,#w64{
+width:150px;
+height:100%;
+//border:1px solid black;
+display:inline-block;
+margin-left:20px;
+margin-right:20px;
+text-align:center;
+}
+#wrapper7{
+height:387px;
+//border:1px solid black;
+margin:0px auto;
+text-align:center;
+}
+#w7text{
+width:30%;
+//border:1px solid black;
+margin:0px auto;
+color:#b1b1b1;
+}
+#wrapper8{
+height:890px;
+//border:1px solid black;
+}
+#wap8{
+width:60%;
+height:154px;
+//border:1px solid black;
+margin:40px auto;
+}
+#w8,#w81,#w82{
+width:28%;
+height:100%;
+//border:1px solid black;
+display:inline-block;
+text-align:center;
+margin-left:10px;
+margin-right:10px;
+}
+#w8,#w81,#w82{
+transform:translateY(-8px);
+}
+#w8center{
+width:40%;
+height:452px;
+//border:1px solid black;
+margin:0px auto;
+text-align:center;
+}
+#e1,#f1{
+height:56px;
+width:100%;
+margin-bottom:30px;
+border:2px solid black;
+}
+textarea{
+height:208px;
+width:100%;
+border:2px solid black;
+}
+#w8b1{
+width:170px;
+height:54px;
+background:black;
+color:white;
+margin-top:20px;
+border:none;
+}
+#wrapper9{
+width:100%;
+height:710px;
+//border:1px solid red;
+padding:60px;
+background:black;
+color:white;
+}
+#w91{
+width:60%;
+height:56px;
+//border:1px solid white;
+margin:50px auto;
+}
+#w9t1{
+width:70%;
+padding-left:30px;
+height:100%;
+margin-right:10px;
+}
+#w9t2{
+height:100%;
+width:28%;
+background:white;
+//border:1px solid black;
+}
+#footer{
+width:100%;
+height:200px;
+//border:1px solid white;
+margin:50px auto;
+}
+#foot1,#foot2,#foot3,#foot4,#foot5{
+width:16%;
+height:100%;
+//border:1px solid white;
+display:inline-block;
+padding:10px;
+color:gray;
+padding-left:30px;
+}
+#foot1{
+transform:translateY(-5px);
+}
+#foot2{
+transform:translateY(-70px);
+}
+#foot3{
+transform:translateY(-70px);
+}
+#foot4{
+transform:translateY(-70px);
+}
+#foot5{
+transform:translateY(-70px);
+}
+
+#hamburger1{
+display:none;
+}
+
+
+
+
+@media only screen and (max-width:450px)
+{
+#container{
+width:100%;
+//border:1px solid black;
+}
+#wrapper1{
+height:580px;
+//border:1px solid black;
+}
+#cap1{
+width:60px;
+margin-left:0px;
+}
+#pic1{
+margin-left:20px;
+width:50px;
+}
+#t1{
+font-size:25px;
+}
+#pic2{
+margin-left:10px;
+width:25px;
+}
+#cap2{
+width:25px;
+}
+#ani{
+margin-top:-400px;
+animation:ani 4s;
+animation-fill-mode:forwards;
+}
+@keyframes ani{
+form{margin-top:-400px;}
+to{margin-top:0px;}
+}
+#middle{
+width:100%;
+margin-top:-20px;
+height:240px;
+}
+#hamburger{
+display:none;
+}
+#pic3{
+margin-left:150px;
+}
+#wrapper2{
+width:100%;
+height:1400px;
+}
+#nav1{
+width:100%;
+}
+#nav2{
+//border:1px solid red;
+height:300px;
+}
+h2{
+width:100%;
+}
+#navtext{
+width:70%;
+}
+#wrapper3{
+width:100%;
+height:1500px;
+}
+#wap{
+height:400px;
+}
+#wap1,#wap2,#wap3{
+width:100%;
+height:100%;
+//border:1px solid black;
+display:inline-block;
+text-align:center;
+}
+#wrapper4{
+width:100%;
+height:2600px;
+}
+#wap4{
+width:100%;
+}
+#wap41{
+width:90%;
+}
+#wrapper5{
+height:1800px;
+}
+#wrapper6{
+height:900px;
+}
+#wap6{
+height:180px;
+}
+#w7text{
+width:60%;
+}
+#wap8{
+width:100%;
+text-align:center;
+}
+#w8,#w81,#w82{
+width:20%;
+}
+#w8center{
+width:100%;
+}
+#list{
+width:320px;
+height:370px;
+margin-left:-2px;
+margin-top:-2px;
+}
+ul li{
+font-size:18px;
+}
+
+#wrapper9{
+width:100%;
+padding:0px;
+padding-top:20px;
+height:900px;
+}
+#w91{
+width:90%;
+height:40px;
+}
+#w9t1{
+width:70%;
+padding-left:0px;
+}
+#w9t2{
+width:25%;
+}
+#footer{
+width:100%;
+height:100px;
+}
+#foot1,#foot2,#foot3,#foot4,#foot5{
+width:30%;
+padding-left:30px;
+}
+#foot1{
+padding:20px;
+transform:translateY(0px);
+width:90%;
+height:150px;
+}
+#foot2{
+transform:translateY(0px);
+}
+#foot3{
+transform:translateY(0px);
+}
+#foot4{
+transform:translateY(0px);
+}
+#foot5{
+transform:translateY(0px);
+}
+}
+</style>
+<script src="js/jquery.min.js"></script>
+<script>
+$("document").ready(function()
+{
+
+    $("#cap1").click(function(){
+	   $("#list").slideToggle("slow");
+	});
+});
+</script>
+</head>
+<body>
+<form name="form1">
+<div id="container">
+<div id="wrapper1" id="section1">
+<div id="navbar"><img src="images/1.png" id="cap1"><img id="pic1" src="images/2.png" id="w1p"><p id="t1">tinyone</p><img id="pic2" src="images/3.png" ><img src="images/4.png" id="cap2"><img src="images/5.png" id="cap2"><img src="images/6.png"id="cap2">
+<div id="list">
+<ul>
+<li><a href="#section1">Inspire your inspiration</a></li>
+<li><a href="#section2">Tinyone features</a></li>
+<li><a href="#section3">Pricing and free trial</a></li>
+<li><a href="#section4">Our works</a></li>
+<li><a href="#section5">Our team</a></li>
+<li><a href="#section6">Stats and testmonial</a></li>
+<li><a href="#section7">Kepp in touch with us</a></li>
+<li><a href="#section8">Sign up for our newsletter</a></li>
+</ul></div></div>
+
+<div id="middle">
+<h1 id="ani">Inspire your inspiration</h1>
+<p id="t2">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+<input id="b1" type="button" value="GET START">
+</div>
+<img src="images/7.png" id="pic3">
+</div>
+<div id="wrapper2">
+<div id="nav1">
+<h2 id="section2">Tinyone features</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="nav2">
+<div id="npic"><div id="npic1" ><img src="images/8.png"  id="w2pic1"></div><div id="npic1"><img src="images/9.png" id="w2pic1"></div></div>
+<div id="ntext"><div id="npic1"><h3>Fully Responsive</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div><div id="npic1"><h3>HTML & CSS3</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div></div>
+<div id="npic"><div id="npic1"><img src="images/10.png" id="w2pic1"></div><div id="npic1"><img src="images/11.png"  id="w2pic1"></div>
+</div><div id="ntext"><div id="npic1"><h3>Fully Layerd PSD</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div><div id="npic1"><h3>Email Template</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div></div>
+<div id="npic"><div id="npic1"><img src="images/12.png"   id="w2pic1"></div><div id="npic1"><img src="images/13.png"   id="w2pic1"></div></div>
+<div id="ntext"><div id="npic1"><h3>Font Awesome Icon</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div><div id="npic1"><h3>Free To Download</h3><p id="w2text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p></div></div>
+</div>
+</div>
+
+<div id="wrapper3">
+<div id="nav1">
+<h2 id="section3">Pricing And Free Trial</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="wap">
+<div id="wap1">
+<img src="images/14.png" width="100px" height="100px">
+<h3>Basic</h3>
+<p id="w3text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p>
+<h2 id="underline">FREE</h2><p id="ptext">free forever</p>
+<input type="button" value="GET FREE NOW" id="w3b">
+</div>
+
+
+<div id="wap2"><img src="images/15.png" width="100px" height="100px">
+<h3>Standard</h3>
+<p id="w3text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p>
+<h2 id="underline">$99</h2><p id="ptext">month</p>
+<input type="button" value="UPGRADE" id="w3b"></div>
+
+
+<div id="wap3"><img src="images/16.png" width="100px" height="100px">
+<h3>Enterprice</h3>
+<p id="w3text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p>
+<h2 id="underline">$199</h2><p id="ptext">month</p>
+<input type="button" value="LEARN MORE" id="w3b"></div>
+</div>
+</div>
+
+
+<div id="wrapper4">
+<div id="nav1">
+<h2 id="section4">Our Works</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="wap4">
+<div id="wap41"><img src="images/17.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">Design/Branding</p><img src="images/18.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">Design/Branding</p></div>
+<div id="wap41"><img src="images/19.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">Design/Branding</p><img src="images/20.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">Design/Branding</p></div>
+<div id="wap41"><img src="images/21.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">App design/development</p><img src="images/22.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">App design/Development</p></div>
+<div id="wap41"><img src="images/23.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">branding</p><img src="images/23.png" width="100%" height="150px"><h3>Fully Responsive</h3><p id="w4text">Branding</p></div>
+ </div>
+</div>
+
+<div id="wrapper5">
+<div id="nav1">
+<h2 id="section5">Our Team</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="wap5">
+<div id="w5"><img src="images/p1.png"><h3>John Deo</h3><p id="w5text">UI Designer</p><p id="w5text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p><div><img src="images/p5.png"><img src="images/p6.png"><img src="images/p7.png"></div></div>
+<div id="w51"><img src="images/p2.png"><h3>John Deo</h3><p id="w5text">UI Designer</p><p id="w5text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p><div><img src="images/p5.png"><img src="images/p6.png"><img src="images/p7.png"></div></div>
+<div id="w52"><img src="images/p3.png"><h3>John Deo</h3><p id="w5text">UI Designer</p><p id="w5text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p><div><img src="images/p5.png"><img src="images/p6.png"><img src="images/p7.png"></div></div>
+<div id="w53"><img src="images/p4.png"><h3>John Deo</h3><p id="w5text">UI Designer</p><p id="w5text">Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit</p><div><img src="images/p5.png"><img src="images/p6.png"><img src="images/p7.png"></div></div>
+</div>
+</div>
+<div id="wrapper6">
+<div id="nav1">
+<h2 id="section6">Stars and Testimonial</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div  id="wap6">
+<div id="w61"><img src="images/p8.png"><h2>20</h2><p id="ptext">Products</p></div>
+<div id="w62"><img src="images/p9.png"><h2>120,000</h2><p id="ptext">Downloads</p></div>
+<div id="w63"><img src="images/p10.png"><h2>1200</h2><p id="ptext">Customers</p></div>
+<div id="w64"><img src="images/p11.png"><h2>900</h2><p id="ptext">Like</p></div>
+</div>
+</div>
+<div id="wrapper7"><img src="images/p1.png"><h3>John Deo</h3><p id="w5text">UI Designer</p>
+<p id="w7text">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis."</p>
+</div>
+<div id="wrapper8">
+<div id="nav1">
+<h2 id="section4"id="section7">Keep in touch with us</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="wap8">
+<div id="w8"><img src="images/c1.png"><h3>Adress</h3><p><font color="gray">Lorem ipsum dolor sit amet</font></p></div>
+<div id="w81"><img src="images/c2.png"><h3>E-mail</h3><p><font color="gray">Lorem ipsum dolor sit amet</font></p></div>
+<div id="w82"><img src="images/c3.png"><h3>Phone</h3><p><font color="gray">Lorem ipsum dolor sit amet</font></p></div>
+</div>
+<div id="w8center">
+<input type="text" placeholder="Email" id="e1">
+<input type="text" placeholder="Full name" id="f1">
+<textarea placeholder="Message"></textarea>
+<input type="button" value="SEND MESSAGE" id="w8b1">
+</div>
+</div>
+<div id="wrapper9">
+<div id="nav1">
+<h2 id="section8">Sign up for our newsletter</h2>
+<p id="navtext">em ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+</div>
+<div id="w91"><input type="text" placeholder="Enter your email to update" id="w9t1"><input type="button" value="SUBMIT" id="w9t2"></div>
+<div id="footer">
+<div id="foot1"><p>ALOVIETNAM LTD
+66, Dang Van ngu, Dong Da
+Hanoi, Vietnam</p><p>contact@halovietnam.com</p><p>+844 35149182</p></div>
+<div id="foot2"><p>Examples<br>
+Shop<br>
+License</p></div>
+<div id="foot3"><p>Contact<br>
+About<br>
+Privacy
+Terms</p></div>
+<div id="foot4"><p>Download<br>
+Support<br>
+Documents</p></div>
+<div id="foot5"><p>Media<br>
+Blog<br>
+Forums</p></div>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>
