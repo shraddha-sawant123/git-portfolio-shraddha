@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/webView.css">
+  <link rel="stylesheet" type="text/css" href="css/mobileView.css"> 
+</head>
+<body>
+
+ <!-- Container start ------>
+<div class="container">
+    <!-- header ---------------->
+     <div class="pt-5 text-center colorWhite">
+        <h1 class="headingFont">DelphianLogic in action</h1>
+        <p>or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+     </div>
+  <!-- end of header ---------->
+
+<!-- Mobile view code start ------------>
+  <div id="mobileView">
+
+    <!-- Accordion 1 ------------------>
+			<button class="accordion" onclick="accordion1()" value="1" id="btn1">
+				<img class="icon" src="images/DL-learning.svg"><b class="headingFont">Learning</b><img src="images/plus-01.svg" class="float-right" id="plus1">
+			</button>
+
+			<div class="panel paddingZeroPixel" style="padding: 0px">
+
+      <!-- Start of Carousel ------>
+			     <div id="carouselExampleIndicators11" class="carousel slide fullHeight" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner fullHeight" >
+                <div class="carousel-item active fullHeight">
+                   <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                   </div>
+                </div>
+                <div class="carousel-item fullHeight">
+                   <div class="box1 p-4 bg-success">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                   </div>
+                </div>
+                <div class="carousel-item  fullHeight">
+                    <div class="box1 p-4 bg-danger">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                    </div>
+                </div>
+              </div>
+            </div> 
+            <!-- end of carosal --->
+			</div>
+
+     <!-- Accordian2 ------------------>
+			<button class="accordion" onclick="accordion2()" value="1" id="btn2">
+				<img class="icon" src="images/DL-technology.svg"><b>Technology</b><img src="images/plus-01.svg" class="float-right" id="plus2">
+			</button>
+
+			 <div class="panel paddingZeroPixel" style="padding: 0px">
+
+      <!-- Start of Carousel ------>
+        <div id="myCarousel" class="carousel slide fullHeight" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner fullHeight">
+
+                      <div class="carousel-item active fullHeight">
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+
+
+                      <div class="carousel-item active fullHeight">
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+
+
+                      <div class="carousel-item active fullHeight">
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+
+                    </div>
+               </div>
+            <!-- end of carosal --->
+      </div>
+
+    <!-- Accordion3 ---------------------->
+			<button class="accordion" onclick="accordion3()" value="1" id="btn3">
+				<img class="icon" src="images/DL-communication.svg"><b>Communication</b><img src="images/plus-01.svg" class="float-right" id="plus3">
+			</button>
+
+        <div class="panel paddingZeroPixel" style="padding: 0px">
+
+      <!-- Start of Carousel ------>
+        <div id="myCarousel" class="carousel slide fullHeight" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner fullHeight">
+                      <div class="carousel-item active fullHeight">
+                        <!-- Slide image 1 ---->
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active fullHeight">
+                        <!-- Slide image 2 --->
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active fullHeight">
+                        <!-- Slide image 3--->
+                        <div class="box1 p-4">
+                          <div>
+                             <span class="box1Heading">Digital learning infrastructure</span>
+                             <h3 class="box1HeadingTag">Usability enhancement and training for Transaction portal for Customers</h3>
+                             <button class="Box1Btn" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="arrow"></button>
+                           </div>
+                        </div>
+                      </div>
+
+                    </div>
+               </div>
+            <!-- end of carosal --->
+      </div>
+  </div>
+  <!-- End of mobile view code ---------->
+
+
+  <!-- Start of deskTop view ----------->
+
+  <div class="row"  id="outerlayer">
+    <!-- Column 1 ----->
+
+      <div class="col-sm-3 pt-4 col1">
+
+          <div class="boxes" data-toggle="tab" href="#home"><img class="icon" src="images/DL-learning.svg"><b class="ft1">Learning</b></div>
+
+          <div class="boxes" data-toggle="tab" href="#menu1"><img class="icon" src="images/DL-technology.svg"><b class="ft1">Technology</b></div>
+
+          <div class="boxes" data-toggle="tab" href="#menu2"><img class="icon" src="images/DL-communication.svg"><b class="ft1">Communication</b></div>
+
+     </div>
+     <!-- Column 2 ---->
+     <div class="col-sm-9 paddingZeroPixel">
+       <div class="tab-content paddingZeroPixel fullHeight">
+
+        <!-- start of home tab ----->
+         <div id="home" class="container tab-pane active">
+            <div class="row height1">
+              <div class="col-sm-6 paddingZeroPixel">
+                 <div id="carouselExampleIndicators" class="carousel slide fullHeight" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner fullHeight" >
+						    <div class="carousel-item active fullHeight">
+						      <div class="box1">
+                        <div>
+                           <span class="box1Heading">Digital learning infrastructure</span>
+                            <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                            <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                         </div>
+                      </div>
+						    </div>
+						    <div class="carousel-item fullHeight">
+						       <div class="box1 fullHeight bg-success" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+						    </div>
+						    <div class="carousel-item  fullHeight">
+						       <div class="box1 fullHeight bg-danger" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+						    </div>
+						  </div>
+						</div> 
+          </div>
+
+           <div class="col-sm-6 col31" >
+             insurance<!-- Default checked -->
+              <div class="custom-control custom-switch" style="transform: translateY(30px);margin-left: 10px;">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+           </div>
+
+         </div>
+       </div>
+
+       <!-- End of Home tab --->
+
+       <!-- start of menu 1 tab  ----------->
+       <div id="menu1" class="container tab-pane fade">
+           <div class="row height1">
+               <div class="col-sm-6 paddingZeroPixel">
+                 <div id="carouselExampleIndicators990" class="carousel slide fullHeight" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner fullHeight" >
+                <div class="carousel-item active fullHeight">
+                  <div class="box1">
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+                <div class="carousel-item fullHeight">
+                   <div class="box1 fullHeight bg-success" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+                <div class="carousel-item fullHeight">
+                   <div class="box1 fullHeight bg-danger" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+           <div class="col-sm-6 col32"> 
+              insurance<!-- Default checked -->
+              <div class="custom-control custom-switch" style="transform: translateY(30px);margin-left: 10px;">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+            </div>
+         </div>
+       </div>
+       <!-- end of menu 1----->
+
+       <div id="menu2" class="container tab-pane fade">
+           <div class="row height1">
+               <div class="col-sm-6 paddingZeroPixel">
+                 <div id="carouselExampleIndicators88" class="carousel slide fullHeight" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner fullHeight" >
+                <div class="carousel-item active fullHeight">
+                  <div class="box1">
+                    <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+                <div class="carousel-item fullHeight">
+                   <div class="box1 fullHeight bg-success" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+                <div class="carousel-item fullHeight">
+                   <div class="box1 fullHeight bg-danger" >
+                      <div>
+                         <span class="box1Heading">Digital learning infrastructure</span>
+                          <h3 class="HeadingTag1">Usability enhancement and training for Transaction portal for Customers</h3>
+                          <button class="box1Button" onclick="myFunction()" id="myBtn">Learn more <img src="images/arrow-right.svg" class="box1Image"></button>
+                       </div>
+                    </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+           <div class="col-sm-6 col33">
+           	 insurance<!-- Default checked -->
+              <div class="custom-control custom-switch" style="transform: translateY(30px);margin-left: 10px;">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+           </div>
+         </div>
+       </div>
+       <!-- end of menu 2 tab ------------>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of container -->
+</body>
+</html>
+<script type="text/javascript" src="js/main.js"></script>
